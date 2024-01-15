@@ -1,4 +1,4 @@
-const NewAlert = function() {
+window.NewAlert = function() {
   this.init = function() {
     // Create the popup container
     const popupContainer = document.createElement('div');

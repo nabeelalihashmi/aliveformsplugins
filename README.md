@@ -14,7 +14,7 @@ In local logic unit, at boot or screen -1, at this code
 
 ```
 $.ImportScript('https://cdn.jsdelivr.net/gh/nabeelalihashmi/aliveformsplugins@master/js/NewAlert.min.js', function() {
-    window.newAlert = window newAlert || new NewAlert();
+    window.newAlert = window newAlert || new PNewAlert();
     window.newAlert.init();
 });
 ```

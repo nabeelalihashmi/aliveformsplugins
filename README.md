@@ -56,7 +56,10 @@ window.speaker.speak(message)
 for example
 
 ```
-setTimout(() => window.speaker.speak($.ScreenTitle(scree)), 500)
+setTimeout(() => window.speaker.speak($.ScreenTitle(screen + 1)), 500)
 ```
+
+`screen + 1` is because logic in executed after next button is clicked.
+Or you can use snippet syntax in every screen. i.e.  [/ window.speaker.speak($.ScreenTitle(screen + 1)) /]
 It is recommended to wrap in in `setTimeout` depending upon transition duration of screen.
 ___
